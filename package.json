@@ -1,11 +1,11 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "Recipe appp",
-  "main": "index.html",
+  "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "AM",
   "license": "ISC",
